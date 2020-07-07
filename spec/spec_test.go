@@ -15,8 +15,9 @@ var _ = Describe("Cf App Autoscaler Kit", func() {
 	})
 
 	Test(Environment{
-		Name:        "full-setup",
-		CloudConfig: "vsphere",
-		Exodus:      "exodus",
+		Name:          "full-setup",
+		CloudConfig:   "vsphere",
+		Exodus:        "exodus",
+		RuntimeConfig: "dns",
 	})
 })
