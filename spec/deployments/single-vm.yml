@@ -1,0 +1,14 @@
+---
+kit:
+  name: dev
+  features:
+    - postgres
+    - single-vm
+
+genesis:
+  env:                single-vm
+
+params:
+  cf_deployment_env:  single-vm
+  cf_deployment_type: dev
+  network: default
